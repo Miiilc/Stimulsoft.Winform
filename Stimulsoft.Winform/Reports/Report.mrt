@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="3">
+      <Label Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>Label</Alias>
+        <BusinessObjects isList="true" count="0" />
+        <Category />
+        <Columns isList="true" count="12">
+          <value>Prop0,System.String</value>
+          <value>Prop1,System.String</value>
+          <value>Prop2,System.String</value>
+          <value>Prop3,System.String</value>
+          <value>Prop4,System.String</value>
+          <value>Prop5,System.String</value>
+          <value>Prop6,System.String</value>
+          <value>Prop7,System.String</value>
+          <value>Prop8,System.String</value>
+          <value>Prop9,System.String</value>
+          <value>IsSingleLabel,System.Boolean</value>
+          <value>Message,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Guid>07858983ffa94b4f85e526a0e6d38b4d</Guid>
+        <Name>Label</Name>
+      </Label>
+      <labelName Ref="3" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>labelName</Alias>
+        <BusinessObjects isList="true" count="0" />
+        <Category />
+        <Columns isList="true" count="10">
+          <value>Prop0,System.String</value>
+          <value>Prop1,System.String</value>
+          <value>Prop2,System.String</value>
+          <value>Prop3,System.String</value>
+          <value>Prop4,System.String</value>
+          <value>Prop5,System.String</value>
+          <value>Prop6,System.String</value>
+          <value>Prop7,System.String</value>
+          <value>Prop8,System.String</value>
+          <value>Prop9,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Guid>3b9fa0d9c9094ff6aaa1a9eab37a4568</Guid>
+        <Name>labelName</Name>
+      </labelName>
+      <label Ref="4" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>label</Alias>
+        <BusinessObjects isList="true" count="0" />
+        <Category />
+        <Columns isList="true" count="2">
+          <value>Prop0,System.String</value>
+          <value>Prop1,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Guid>d1124212420a4e7480763f7b2568bc74</Guid>
+        <Name>label</Name>
+      </label>
+    </BusinessObjects>
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="5" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="5">
+        <Panel1 Ref="6" type="Panel" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,1,3.8,1.9</ClientRectangle>
+          <Components isList="true" count="1">
+            <Table1 Ref="7" type="Stimulsoft.Report.Components.Table.StiTable" isKey="true">
+              <AutoWidth>Table</AutoWidth>
+              <AutoWidthType>FullTable</AutoWidthType>
+              <Border>All;Black;2;Solid;False;0;Black</Border>
+              <Brush>EmptyBrush</Brush>
+              <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+              <ColumnCount>4</ColumnCount>
+              <Components isList="true" count="8">
+                <Table1_Cell1 Ref="8" type="TableCell" isKey="true">
+                  <Border>Top, Left, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0,1,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10,Bold</Font>
+                  <ID>10</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell1</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <Text>{labelName.Prop0}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>DataColumn</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell1>
+                <Table1_Cell2 Ref="9" type="TableCell" isKey="true">
+                  <Border>Top, Right, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1,0,0.9,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <ID>11</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell2</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <Text>{label.Prop0}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell2>
+                <Table1_Cell3 Ref="10" type="TableCell" isKey="true">
+                  <Border>Top, Left, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1.9,0,0.9,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10,Bold</Font>
+                  <ID>12</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell3</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <Text>{labelName.Prop1}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>DataColumn</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell3>
+                <Table1_Cell4 Ref="11" type="TableCell" isKey="true">
+                  <Border>Top, Right, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>2.8,0,1,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10</Font>
+                  <HorAlignment>Center</HorAlignment>
+                  <ID>14</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell4</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <Text>{label.Prop1}</Text>
+                  <TextBrush>Black</TextBrush>
+                  <Type>DataColumn</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell4>
+                <Table1_Cell5 Ref="12" type="TableCell" isKey="true">
+                  <Border>Top, Left, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>0,0.3,1,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10,Bold</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <ID>15</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell5</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell5>
+                <Table1_Cell6 Ref="13" type="TableCell" isKey="true">
+                  <Border>Top, Right, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1,0.3,0.9,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <ID>16</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell6</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell6>
+                <Table1_Cell7 Ref="14" type="TableCell" isKey="true">
+                  <Border>Top, Left, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>1.9,0.3,0.9,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10,Bold</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <ID>17</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell7</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell7>
+                <Table1_Cell8 Ref="15" type="TableCell" isKey="true">
+                  <Border>Top, Right, Bottom;Black;2;Solid;False;4;[105:105:105]</Border>
+                  <Brush>Transparent</Brush>
+                  <ClientRectangle>2.8,0.3,1,0.3</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Font>IRANSans,10</Font>
+                  <HorAlignment>Right</HorAlignment>
+                  <ID>19</ID>
+                  <JoinCells isList="true" count="0" />
+                  <Margins>0,0,0,0</Margins>
+                  <Name>Table1_Cell8</Name>
+                  <Page isRef="5" />
+                  <Parent isRef="7" />
+                  <Restrictions>AllowMove, AllowSelect, AllowChange</Restrictions>
+                  <TextBrush>Black</TextBrush>
+                  <Type>Expression</Type>
+                  <VertAlignment>Center</VertAlignment>
+                </Table1_Cell8>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>Table1</Name>
+              <NumberID>25</NumberID>
+              <Page isRef="5" />
+              <Parent isRef="6" />
+              <RightToLeft>True</RightToLeft>
+              <RowCount>2</RowCount>
+              <Sort isList="true" count="0" />
+            </Table1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>Panel1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </Panel1>
+        <Panel2 Ref="16" type="Panel" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.1,0.1,3.8,0.8</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text1 Ref="17" type="Text" isKey="true">
+              <Border>None;Black;1;Solid;False;4;[105:105:105]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.1,0.3,1.63,0.3</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>IRANSans,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="5" />
+              <Parent isRef="16" />
+              <Text>Company Name</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>Panel2</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </Panel2>
+        <RectanglePrimitive1 Ref="18" type="RectanglePrimitive" isKey="true">
+          <ClientRectangle>4.2,1.7,0.4,1.3</ClientRectangle>
+          <Color>Black</Color>
+          <Guid>4fccc155fd9f46858fac25edf6a2e2be</Guid>
+          <Name>RectanglePrimitive1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+        </RectanglePrimitive1>
+        <StartPointPrimitive1 Ref="19" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+          <ClientRectangle>4.2,1.7,0,0</ClientRectangle>
+          <Name>StartPointPrimitive1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <ReferenceToGuid>4fccc155fd9f46858fac25edf6a2e2be</ReferenceToGuid>
+        </StartPointPrimitive1>
+        <EndPointPrimitive1 Ref="20" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>4.6,3,0,0</ClientRectangle>
+          <Name>EndPointPrimitive1</Name>
+          <Page isRef="5" />
+          <Parent isRef="5" />
+          <ReferenceToGuid>4fccc155fd9f46858fac25edf6a2e2be</ReferenceToGuid>
+        </EndPointPrimitive1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>037470be8ce746448f93d4da18d9cebd</Guid>
+      <Margins>0,0,0,0</Margins>
+      <Name>Page1</Name>
+      <PageHeight>3</PageHeight>
+      <PageWidth>4</PageWidth>
+      <Report isRef="0" />
+      <Watermark Ref="21" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="22" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>1/19/2023 9:24:27 PM</ReportChanged>
+  <ReportCreated>12/13/2022 3:44:55 PM</ReportCreated>
+  <ReportFile>Report.mrt</ReportFile>
+  <ReportGuid>238610fdda74486ebeaf78df1e144ba5</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2014.3.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
